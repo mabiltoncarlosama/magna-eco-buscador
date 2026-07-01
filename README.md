@@ -1,6 +1,7 @@
-# 🔭 Buscador de Estaciones MAGNA-ECO
+#  Buscador de Estaciones MAGNA-ECO
 
-Aplicación web para buscar las estaciones MAGNA-ECO del IGAC más cercanas a un punto y estimar el tiempo mínimo de rastreo GNSS según la **Resolución IGAC 643/2018**.
+Aplicación web para buscar las estaciones MAGNA-ECO del IGAC más cercanas a un punto y estimar el tiempo mínimo de rastreo GNSS según la **Resolución IGAC 643/2018**. 
+> Presentado por Mabilton Estiven Carlosama - Cod. 2438826
 
 > **Proyecto Final — Geodesia Geométrica (Cód. 720055C) — Semestre I-2026**
 > Profesor: Julián Esteban Londoño Vélez
@@ -196,11 +197,11 @@ Calcula la distancia geodésica y el tiempo mínimo de rastreo desde un punto a 
 
 | # | Caso de prueba | Entrada | Salida esperada | Salida obtenida | Estado |
 |---|---|---|---|---|---|
-| 1 | Ejemplo del PDF (3.4 km de CALI) | 3.406, -76.533 | 84.8 min | 84.8 min | ✅ |
-| 2 | Distancia Bogotá-CALI | 4.638, -74.084 | ≈ 305 km | 305.645 km | ✅ |
-| 3 | Bogotá → Top-3 | 4.638, -74.084 | BOGT, BOGA, ABCC | BOGT, BOGA, ABCC | ✅ |
-| 4 | Coordenadas fuera de Colombia | 40.0, -100.0 | HTTP 400 | HTTP 400 | ✅ |
-| 5 | GMS → CALI exacta | 3°22'32.84"N 76°31'57.23"O | CALI 0.000 km | CALI 0.000 km | ✅ |
+| 1 | Ejemplo del PDF (3.4 km de CALI) | 3.406, -76.533 | 84.8 min | 84.8 min | 
+| 2 | Distancia Bogotá-CALI | 4.638, -74.084 | ≈ 305 km | 305.645 km | 
+| 3 | Bogotá → Top-3 | 4.638, -74.084 | BOGT, BOGA, ABCC | BOGT, BOGA, ABCC | 
+| 4 | Coordenadas fuera de Colombia | 40.0, -100.0 | HTTP 400 | HTTP 400 | 
+| 5 | GMS → CALI exacta | 3°22'32.84"N 76°31'57.23"O | CALI 0.000 km | CALI 0.000 km | 
 
 ## Licencia
 
