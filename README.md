@@ -7,7 +7,7 @@ Aplicación web para buscar las estaciones MAGNA-ECO del IGAC más cercanas a un
 
 ---
 
-## 📋 Tabla de contenidos
+##  Tabla de contenidos
 
 - [Descripción](#descripción)
 - [Características](#características)
@@ -30,14 +30,14 @@ El tiempo mínimo de rastreo en campo depende directamente de la distancia entre
 
 ## Características
 
-- ✅ **Ingreso de coordenadas** en grados decimales (DD) o grados, minutos y segundos (GMS)
-- ✅ **Validación de territorio colombiano** (lat −4.5° a 13.5°, lon −79.5° a −66.5°)
-- ✅ **Cálculo de distancia geodésica** a las 50 estaciones MAGNA-ECO con el método iterativo de Vincenty sobre el elipsoide WGS84
-- ✅ **Top 3 estaciones más cercanas** con nombre, código IGS, distancia, tiempo mínimo de rastreo, coordenadas y acimut
-- ✅ **Mapa interactivo** (Leaflet) con marcadores y líneas geodésicas
-- ✅ **Tabla completa** con las 50 estaciones ordenadas por distancia
-- ✅ **Exportación CSV** de todos los resultados
-- ✅ **Diseño responsive** (móvil y escritorio)
+-  **Ingreso de coordenadas** en grados decimales (DD) o grados, minutos y segundos (GMS)
+-  **Validación de territorio colombiano** (lat −4.5° a 13.5°, lon −79.5° a −66.5°)
+-  **Cálculo de distancia geodésica** a las 50 estaciones MAGNA-ECO con el método iterativo de Vincenty sobre el elipsoide WGS84
+-  **Top 3 estaciones más cercanas** con nombre, código IGS, distancia, tiempo mínimo de rastreo, coordenadas y acimut
+- **Mapa interactivo** (Leaflet) con marcadores y líneas geodésicas
+-  **Tabla completa** con las 50 estaciones ordenadas por distancia
+- **Exportación CSV** de todos los resultados
+- **Diseño responsive** (móvil y escritorio)
 
 ## Stack tecnológico
 
@@ -104,7 +104,7 @@ npm run dev
 
 Abrir **http://localhost:3000** en el navegador (Chrome, Firefox o Edge).
 
-> ⚠️ **Importante para Windows:** si al ejecutar `npm run dev` ves el error `"tee" no se reconoce como un comando`, abre `package.json` y verifica que el script `dev` sea `"dev": "next dev -p 3000"` (sin `tee` ni `2>&1`). La versión actual del repositorio ya está corregida.
+>  **Importante para Windows:** si al ejecutar `npm run dev` ves el error `"tee" no se reconoce como un comando`, abre `package.json` y verifica que el script `dev` sea `"dev": "next dev -p 3000"` (sin `tee` ni `2>&1`). La versión actual del repositorio ya está corregida.
 
 ### Scripts disponibles
 
@@ -204,7 +204,7 @@ Calcula la distancia geodésica y el tiempo mínimo de rastreo desde un punto a 
 
 ## Licencia
 
-Proyecto académico para el curso de Geodesia Geométrica — Universidad Nacional de Colombia.
+Proyecto académico para el curso de Geodesia Geométrica — Universidad del Valle
 
 ---
 
