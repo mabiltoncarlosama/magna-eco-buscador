@@ -38,7 +38,7 @@ El tiempo mínimo de rastreo en campo depende directamente de la distancia entre
 - **Mapa interactivo** (Leaflet) con marcadores y líneas geodésicas
 -  **Tabla completa** con las 50 estaciones ordenadas por distancia
 - **Exportación CSV** de todos los resultados
-- **Diseño responsive** (móvil y escritorio)
+- **Diseño responsive** (móvil y escritorio) 
 
 ## Stack tecnológico
 
@@ -84,7 +84,7 @@ magna-eco-buscador/
 
 ## Instalación y ejecución
 
-### Requisitos previos
+##Requisitos previos Para la ejecución de Forma Local Es necesario lo siguiente:
 
 - **Node.js** 18.17 o superior — descárgalo de https://nodejs.org (versión LTS recomendada)
 - **npm** (incluido con Node.js)
@@ -116,11 +116,18 @@ Abrir **http://localhost:3000** en el navegador (Chrome, Firefox o Edge).
 | `npm run start` | Servidor de producción (después de `build`) |
 | `npm run lint` | Verifica la calidad del código con ESLint |
 
+#Para ser usado de Formal remota sin la instalacion de Ningun documento 
+
+se requiere ingresar al link 
+https://magna-eco-buscador-19k7f3kid-mabilton-estiven.vercel.app/
+
+Es necesario la creación de una cuenta en vercel que es donde está alojado el servidor
+
 ## Uso de la aplicación
 
 1. **Ingresa las coordenadas** del punto a rastrear (datum WGS84 / MAGNA-SIRGAS):
    - En la pestaña **DD** (grados decimales): p. ej. `4.638289` latitud, `-74.084058` longitud
-   - En la pestaña **GMS**: p. ej. `4° 38' 17.84" N, 74° 05' 02.61" O`
+   - En la pestaña **GMS**: p. ej. `4° 3 yo8' 17.84" N, 74° 05' 02.61" O`
 2. Haz clic en **"Calcular distancias y tiempos"** o usa uno de los botones de ejemplo (Bogotá, Cali, Medellín, Barranquilla).
 3. **Revisa los resultados:**
    - Tarjetas **Top 3 estaciones más cercanas** con distancia, tiempo y coordenadas.
