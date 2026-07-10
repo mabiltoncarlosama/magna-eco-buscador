@@ -84,6 +84,8 @@ magna-eco-buscador/
 
 ## Instalación y ejecución
 
+#Esta aplicación tiene dos formas de ser usada, de forma local y remota.
+
 ##Requisitos previos Para la ejecución de Forma Local Es necesario lo siguiente:
 
 - **Node.js** 18.17 o superior — descárgalo de https://nodejs.org (versión LTS recomendada)
@@ -116,12 +118,12 @@ Abrir **http://localhost:3000** en el navegador (Chrome, Firefox o Edge).
 | `npm run start` | Servidor de producción (después de `build`) |
 | `npm run lint` | Verifica la calidad del código con ESLint |
 
-#Para ser usado de Formal remota sin la instalacion de Ningun documento 
+#Para ser usado de forma remota sin la instalacion de ningún archivo 
 
 se requiere ingresar al link 
-https://magna-eco-buscador-19k7f3kid-mabilton-estiven.vercel.app/
+https://magna-eco-buscador.vercel.app/
 
-Es necesario la creación de una cuenta en vercel que es donde está alojado el servidor
+
 
 ## Uso de la aplicación
 
